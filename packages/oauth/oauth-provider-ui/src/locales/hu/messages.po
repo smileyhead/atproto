@@ -1,77 +1,78 @@
+# SPDX-FileCopyrightText: 2026 Levente Pál Szíjártó <szijartoleventepal@gmail.com>
 msgid ""
 msgstr ""
 "POT-Creation-Date: 2025-02-27 14:42+0100\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: @lingui/cli\n"
+"X-Generator: Lokalize 25.12.3\n"
 "Language: hu\n"
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: \n"
+"PO-Revision-Date: 2026-04-02 20:58+0200\n"
+"Last-Translator: Levente Pál Szíjártó <szijartoleventepal@gmail.com>\n"
+"Language-Team: hu\n"
 "Plural-Forms: \n"
 
 #: src/views/authorize/sign-in/sign-in-form.tsx:221
 msgid "2FA Confirmation"
-msgstr ""
+msgstr "Kétlépcsős azonosítás"
 
 #: src/components/utils/error-message.tsx:27
 msgid "A second authentication factor is required"
-msgstr ""
+msgstr "A kétlépcsős azonosítás kötelező"
 
 #: src/components/utils/scope-description.tsx:848
 msgid "A service controlled by <0>{domain}</0>"
-msgstr ""
+msgstr "Szolgáltató: <0>{domain}</0>"
 
 #: src/components/utils/scope-description.tsx:279
 msgid "Account"
-msgstr ""
+msgstr "Fiók"
 
 #: src/views/authorize/reset-password/reset-password-view.tsx:71
 msgid "Already have a code?"
-msgstr ""
+msgstr "Már rendelkezik kóddal?"
 
 #: src/components/utils/client-name.tsx:46
 msgid "An application on your device"
-msgstr ""
+msgstr "Telepített alkalmazás ezen az eszközön"
 
 #: src/components/utils/error-message.tsx:87
 msgid "An unknown error occurred"
-msgstr ""
+msgstr "Ismeretlen hiba történt"
 
 #: src/views/authorize/sign-in/sign-in-picker.tsx:113
 msgid "Another account"
-msgstr ""
+msgstr "Másik fiók"
 
 #: src/components/utils/scope-description.tsx:876
 msgid "Any collection"
-msgstr ""
+msgstr "Bármilyen adat gyűjtése"
 
 #: src/components/utils/scope-description.tsx:818
 msgid "Any method"
-msgstr ""
+msgstr "Bármilyen módszer"
 
 #: src/components/utils/scope-description.tsx:857
 msgid "Any service"
-msgstr ""
+msgstr "Bármilyen szolgáltatás"
 
 #: src/views/authorize/welcome/welcome-view.tsx:28
 #: src/components/utils/scope-description.tsx:455
 #: src/components/utils/scope-description.tsx:475
 msgid "Authenticate"
-msgstr ""
+msgstr "Azonosítás"
 
 #: src/views/authorize/consent/consent-view.tsx:60
 #: src/views/authorize/consent/consent-form.tsx:105
 #: src/views/authorize/consent/consent-form.tsx:174
 msgid "Authorize"
-msgstr ""
+msgstr "Felhatalmazás"
 
 #: src/views/authorize/sign-in/sign-in-picker.tsx:79
 msgid "Avatar"
-msgstr ""
+msgstr "Profilkép"
 
 #: src/views/authorize/sign-in/sign-in-picker.tsx:59
 #: src/views/authorize/sign-in/sign-in-form.tsx:132
@@ -80,493 +81,549 @@ msgstr ""
 #: src/views/authorize/consent/consent-form.tsx:99
 #: src/components/forms/wizard-card.tsx:93
 msgid "Back"
-msgstr ""
+msgstr "Vissza"
 
 #: src/views/authorize/sign-up/sign-up-handle-form.tsx:152
 msgid "Between {minLength} and {maxLength} characters"
-msgstr ""
+msgstr "{minLength}–{maxLength} karakter"
 
 #: src/components/utils/scope-description.tsx:742
 msgid "Blob storage"
-msgstr ""
+msgstr "Objektumtároló"
 
 #: src/components/utils/scope-description.tsx:833
 msgid "Bluesky App services"
-msgstr ""
+msgstr "A Bluesky alkalmazás-szolgáltatása"
 
 #: src/components/utils/scope-description.tsx:840
 msgid "Bluesky Chat services"
-msgstr ""
+msgstr "A Bluesky csevegés-szolgáltatása"
 
 #. placeholder {0}: consentLabel || <Trans>Authorize</Trans>
 #: src/views/authorize/consent/consent-form.tsx:173
-msgid "By clicking <0>{0}</0>, you will grant this application access to your account in accordance with its <1>terms of service</1> and <2>privacy policy</2>."
+msgid ""
+"By clicking <0>{0}</0>, you will grant this application access to your account"
+" in accordance with its <1>terms of service</1> and <2>privacy policy</2>."
 msgstr ""
+"A(z) <0>{0}</0> gombra kattintással hozzáférést biztosít az alkalmazásnak az Ö"
+"n felhasználói fiókjához, a szolgáltató <1>felhasználási feltételeinek</1> és "
+"<2>adatvédelmi irányelveinek</2> megfelelően."
 
 #. placeholder {0}: tosLink ? ( <LinkAnchor className="text-primary underline" link={tosLink}> <Trans>Terms of Service</Trans> </LinkAnchor> ) : ( <Trans>Terms of Service</Trans> )
 #. placeholder {1}: ppLink ? ( <LinkAnchor className="text-primary underline" link={ppLink}> <Trans>Privacy Policy</Trans> </LinkAnchor> ) : ( <Trans>Privacy Policy</Trans> )
 #: src/views/authorize/sign-up/sign-up-disclaimer.tsx:30
-msgid "By creating an account you agree to the {0} and the {1} of this service."
-msgstr ""
+msgid ""
+"By creating an account you agree to the {0} and the {1} of this service."
+msgstr "A fiók létrehozásával Ön egyetért a szolgáltatás {0} és {1}."
 
 #: src/components/utils/scope-description.tsx:550
 msgctxt "RPC lxm"
 msgid "Call"
-msgstr ""
+msgstr "Hívás"
 
 #: src/views/authorize/authorize-view.tsx:176
 #: src/views/authorize/welcome/welcome-view.tsx:51
 #: src/components/forms/form-card-async.tsx:85
 msgid "Cancel"
-msgstr ""
+msgstr "Mésge"
 
 #: src/components/utils/scope-description.tsx:431
 msgid "Change your <0>@handle</0>"
-msgstr ""
+msgstr "<0>@Felhasználónév</0> megváltoztatása"
 
 #: src/components/utils/scope-description.tsx:391
 msgid "Chat"
-msgstr ""
+msgstr "Csevegés"
 
 #. placeholder {0}: secondFactor.hint
 #: src/views/authorize/sign-in/sign-in-form.tsx:234
 msgid "Check your {0} email for a login code and enter it here."
-msgstr ""
+msgstr "Adja meg a(z) {0} e-mail-címre küldött ellenőrzőkódot."
 
 #: src/views/authorize/sign-up/sign-up-view.tsx:99
 msgid "Choose a username"
-msgstr ""
+msgstr "Felhasználónév megadása"
 
 #: src/components/utils/error-card.tsx:76
 msgid "Code"
-msgstr ""
+msgstr "Hibakód"
 
 #: src/components/utils/description-card.tsx:74
 #: src/components/utils/description-card.tsx:76
 msgid "Collapse details"
-msgstr ""
+msgstr "Részletek elrejtése"
 
 #: src/components/utils/scope-description.tsx:710
 msgid "Collection"
-msgstr ""
+msgstr "Adatgyűjtés"
 
 #: src/views/authorize/sign-in/sign-in-form.tsx:139
 msgctxt "verb"
 msgid "Confirm"
-msgstr ""
+msgstr "Megerősítés"
 
 #: src/views/authorize/sign-in/sign-in-view.tsx:69
 msgid "Confirm your password to continue"
-msgstr ""
+msgstr "A folytatáshoz erősítse meg a jelszavát."
 
 #: src/views/authorize/sign-in/sign-in-form.tsx:225
 msgid "Confirmation code"
-msgstr ""
+msgstr "Ellenőrzőkód"
 
 #: src/views/error/cookie-error-view.tsx:34
 msgid "Continue"
-msgstr ""
+msgstr "Folytatás"
 
 #: src/views/error/cookie-error-view.tsx:30
 msgid "Cookie Error"
-msgstr ""
+msgstr "Sütihiba"
 
 #: src/components/utils/scope-description.tsx:711
 msgid "Create"
-msgstr ""
+msgstr "Létrehozás"
 
 #: src/views/authorize/welcome/welcome-view.tsx:35
 msgid "Create a new account"
-msgstr ""
+msgstr "Fiók létrehozása"
 
 #: src/views/authorize/sign-up/sign-up-view.tsx:82
 msgid "Create Account"
-msgstr ""
+msgstr "Fiók létrehozása"
 
 #: src/components/utils/scope-description.tsx:596
 msgid "Create, update, and delete any public record"
-msgstr ""
+msgstr "Nyilvános rekordok létrehozása, módosítása és törlése"
 
 #: src/components/utils/scope-description.tsx:713
 msgid "Delete"
-msgstr ""
+msgstr "Törlés"
 
 #: src/views/authorize/consent/consent-form.tsx:109
 msgid "Deny access"
-msgstr ""
+msgstr "Hozzáférés megtagadása"
 
 #: src/components/utils/error-card.tsx:83
 msgid "Description"
-msgstr ""
+msgstr "Leírás"
 
 #: src/views/authorize/sign-up/sign-up-account-form.tsx:114
 #: src/components/utils/scope-description.tsx:239
 msgid "Email"
-msgstr ""
+msgstr "E-mail"
 
 #: src/views/authorize/reset-password/reset-password-request-form.tsx:55
 #: src/views/authorize/reset-password/reset-password-request-form.tsx:60
 #: src/components/forms/input-email-address.tsx:51
 msgid "Email address"
-msgstr ""
+msgstr "E-mail-cím"
 
 #: src/components/forms/input-new-password.tsx:44
 msgid "Enter a password"
-msgstr ""
+msgstr "Jelszó megadása"
 
 #: src/views/authorize/reset-password/reset-password-view.tsx:85
 msgid "Enter the code you received to reset your password."
-msgstr ""
+msgstr "Adja meg a jelszó-visszaállítási ellenőrzőkódot."
 
 #: src/views/authorize/reset-password/reset-password-request-form.tsx:70
-msgid "Enter the email you used to create your account. We'll send you a \"reset code\" so you can set a new password."
+msgid ""
+"Enter the email you used to create your account. We'll send you a \"reset code"
+"\" so you can set a new password."
 msgstr ""
+"Adja meg a regisztrációkor használt e-mail-címet. Az új jelszó beállításához s"
+"zükséges ellenőrzőkódot erre a címre fogjuk elküldeni."
 
 #: src/views/authorize/reset-password/reset-password-request-form.tsx:58
 msgid "Enter your email address"
-msgstr ""
+msgstr "E-mail-cím megadása"
 
 #: src/components/forms/input-new-password.tsx:45
 msgid "Enter your new password"
-msgstr ""
+msgstr "Új jelszó megadása"
 
 #: src/views/authorize/sign-in/sign-in-view.tsx:90
 msgid "Enter your password"
-msgstr ""
+msgstr "Jelszó megadása"
 
 #: src/views/authorize/sign-in/sign-in-view.tsx:109
 #: src/views/authorize/sign-in/sign-in-view.tsx:126
 msgid "Enter your username and password"
-msgstr ""
+msgstr "Felhasználónév és jelszó megadása"
 
 #: src/views/error/error-view.tsx:28
 msgid "Error"
-msgstr ""
+msgstr "Hiba"
 
 #: src/views/authorize/sign-up/sign-up-account-form.tsx:102
 msgid "example-com-xxxxx-xxxxx"
-msgstr ""
+msgstr "pelda-hu-xxxxx-xxxxx"
 
 #: src/components/utils/description-card.tsx:74
 #: src/components/utils/description-card.tsx:76
 msgid "Expand details"
-msgstr ""
+msgstr "Részletek megjelenítése"
 
 #: src/components/utils/password-strength-label.tsx:25
 msgid "Extra"
-msgstr ""
+msgstr "Nagyon erős"
 
 #: src/views/authorize/reset-password/reset-password-view.tsx:53
 msgid "Forgot Password"
-msgstr ""
+msgstr "Elfelejtett jelszó"
 
 #: src/views/authorize/sign-in/sign-in-form.tsx:189
 msgid "Forgot?"
-msgstr ""
+msgstr "Elfelejtette?"
 
 #. placeholder {0}: account.preferred_username || account.email || account.sub
 #: src/views/authorize/consent/consent-view.tsx:45
 msgid "Grant access to your <0>{0}</0> account"
-msgstr ""
+msgstr "Hozzáférés megadása a következő fiókhoz: {0}"
 
 #: src/components/utils/help-card.tsx:32
 msgid "Having trouble? <0>Contact support</0>"
-msgstr ""
+msgstr "Segítségre van szüksége? <0>Ügyfélszolgálat</0>"
 
 #: src/components/forms/button-toggle-visibility.tsx:34
 msgid "Hide"
-msgstr ""
+msgstr "Elrejtés"
 
 #: src/components/utils/link-title.tsx:17
 msgid "Home"
-msgstr ""
+msgstr "Kezdőoldal"
 
 #: src/views/authorize/sign-in/sign-in-picker.tsx:91
 #: src/views/authorize/sign-in/sign-in-form.tsx:146
 msgid "Identifier"
-msgstr ""
+msgstr "Azonosító"
 
 #: src/components/utils/scope-description.tsx:424
 msgid "Identity"
-msgstr ""
+msgstr "Identitáskezelés"
 
 #: src/locales/locale-selector.tsx:46
 msgid "Interface language selector"
-msgstr ""
+msgstr "Nyelvválasztó felület"
 
 #: src/views/authorize/sign-up/sign-up-handle-form.tsx:286
 msgid "Invalid"
-msgstr ""
+msgstr "Érvénytelen"
 
 #: src/views/authorize/sign-up/sign-up-account-form.tsx:96
 #: src/views/authorize/sign-up/sign-up-account-form.tsx:101
 msgid "Invite code"
-msgstr ""
+msgstr "Meghívókód"
 
 #. placeholder {0}: url.hostname
 #: src/views/error/cookie-error-view.tsx:40
-msgid "It seems that your browser is not accepting cookies. Press \"Continue\" to try again. If the error persists, please ensure that your privacy settings allow cookies for the \"{0}\" website."
+msgid ""
+"It seems that your browser is not accepting cookies. Press \"Continue\" to try"
+" again. If the error persists, please ensure that your privacy settings allow "
+"cookies for the \"{0}\" website."
 msgstr ""
+"Úgy tűnik, hogy az Ön böngészője nem fogad sütiket. Kattintson a Folytatás gom"
+"bra az újrapróbálkozáshoz. Ha a probléma továbbra is fennáll, akkor ellenőrizz"
+"e, hogy a böngésző adatvédelmi beállításai engedélyezik-e a(z) „{0}” webhelyrő"
+"l származó sütiket."
 
 #: src/views/authorize/reset-password/reset-password-view.tsx:55
 msgid "Let's get your password reset!"
-msgstr ""
+msgstr "Jelszó helyreállítása"
 
 #: src/views/authorize/authorize-view.tsx:215
 msgid "Login complete"
-msgstr ""
+msgstr "Sikeres bejelentkezés"
 
 #: src/views/authorize/sign-in/sign-in-picker.tsx:107
 msgid "Login to account that is not listed"
-msgstr ""
+msgstr "Bejelentkezés másik fiókba"
 
 #: src/components/layouts/layout-welcome.tsx:48
 msgid "Logo"
-msgstr ""
+msgstr "Logó"
 
 #: src/components/forms/input-token.tsx:59
 msgid "Looks like {example}"
-msgstr ""
+msgstr "Minta: {example}"
 
 #: src/components/forms/button-toggle-visibility.tsx:34
 msgid "Make visible"
-msgstr ""
+msgstr "Megjelenítés"
 
 #: src/components/utils/scope-description.tsx:427
 msgid "Manage your <0>full identity</0> including your <1>@handle</1>"
 msgstr ""
+"Az Ön <0>teljes identitásának</0> kezelése, beleértve a <1>@felhasználónevet</"
+"1>"
 
 #: src/components/utils/scope-description.tsx:362
 msgid "Manage your profile, posts, likes and follows"
 msgstr ""
+"Az Ön profiljának, bejegyzéseinek, kedveléseinek és követéseinek kezelése"
 
 #: src/components/utils/scope-description.tsx:357
-msgid "Manage your profile, posts, likes and follows as well as read your private preferences"
+msgid ""
+"Manage your profile, posts, likes and follows as well as read your private pre"
+"ferences"
 msgstr ""
+"Az Ön profiljának, bejegyzéseinek, kedveléseinek és követéseinek kezelése, bel"
+"eértve a privát beállításokat is"
 
 #: src/components/utils/password-strength-label.tsx:33
 msgid "Missing"
-msgstr ""
+msgstr "Üres"
 
 #: src/components/utils/password-strength-label.tsx:29
 msgid "Moderate"
-msgstr ""
+msgstr "Közepes"
 
 #: src/views/authorize/sign-in/sign-in-picker.tsx:84
 msgid "Name"
-msgstr ""
+msgstr "Név"
 
 #: src/views/authorize/reset-password/reset-password-confirm-form.tsx:74
 msgid "New password"
-msgstr ""
+msgstr "Új jelszó"
 
 #: src/views/authorize/reset-password/reset-password-view.tsx:60
 #: src/views/authorize/reset-password/reset-password-view.tsx:90
 #: src/components/forms/wizard-card.tsx:96
 msgid "Next"
-msgstr ""
+msgstr "Tovább"
 
 #: src/views/authorize/reset-password/reset-password-view.tsx:119
 msgid "Okay"
-msgstr ""
+msgstr "Rendben"
 
 #: src/views/authorize/sign-up/sign-up-handle-form.tsx:157
 msgid "Only letters, numbers, and hyphens"
 msgstr ""
+"A jelszó csak az angol ábécé betűit, számokat és kötőjeleket tartalmazhat"
 
 #: src/views/authorize/sign-up/sign-up-account-form.tsx:128
 #: src/views/authorize/sign-in/sign-in-form.tsx:170
 #: src/components/forms/input-password.tsx:53
 msgid "Password"
-msgstr ""
+msgstr "Jelszó"
 
 #: src/components/utils/password-strength-label.tsx:23
 msgid "Password strength"
-msgstr ""
+msgstr "Jelszó erőssége"
 
 #: src/components/utils/password-strength-meter.tsx:45
 msgid "Password strength indicator"
-msgstr ""
+msgstr "Jelszóerősségi jelző"
 
 #: src/views/authorize/reset-password/reset-password-view.tsx:106
 msgid "Password Updated"
-msgstr ""
+msgstr "A jelszó módosítása megtörtént"
 
 #: src/views/authorize/reset-password/reset-password-view.tsx:113
 msgid "Password updated!"
-msgstr ""
+msgstr "A jelszó módosítása megtörtént."
 
 #: src/components/forms/input-new-password.tsx:46
 msgid "Password with at least {MIN_PASSWORD_LENGTH} characters"
 msgstr ""
+"A jelszónak legalább {MIN_PASSWORD_LENGTH} karakter hosszúnak kell lennie"
 
 #: src/components/utils/scope-description.tsx:476
 msgid "Perform actions on your behalf"
-msgstr ""
+msgstr "Cselekvés az Ön nevében"
 
 #: src/components/utils/scope-description.tsx:457
 msgid "Perform authenticated actions towards <0>any service</0> on your behalf"
 msgstr ""
+"Jóváhagyott cselekvés az Ön nevében <0>bármilyen szolgáltatást érintően</0>"
 
 #: src/views/authorize/sign-in/sign-in-form.tsx:201
-msgid "Please verify the domain name of the website before entering your password. Never enter your password on a domain you do not trust."
+msgid ""
+"Please verify the domain name of the website before entering your password. Ne"
+"ver enter your password on a domain you do not trust."
 msgstr ""
+"A jelszó megadása előtt ellenőrizze a webhely címét. Soha se adja meg a jelsza"
+"vát egy olyan webhelynek, amelyben nem bízik meg!"
 
 #: src/views/authorize/sign-up/sign-up-disclaimer.tsx:42
 #: src/views/authorize/sign-up/sign-up-disclaimer.tsx:45
 #: src/components/utils/link-title.tsx:18
 msgid "Privacy Policy"
-msgstr ""
+msgstr "adatvédelmi irányelveivel"
 
 #: src/components/utils/scope-description.tsx:617
 msgid "Publish changes"
-msgstr ""
+msgstr "Módosítások publikálása"
 
 #: src/components/utils/scope-description.tsx:392
 msgid "Read and send messages"
-msgstr ""
+msgstr "Üzenetek olvasása és küldése"
 
 #: src/components/utils/scope-description.tsx:242
 msgid "Read and update your account's email address"
-msgstr ""
+msgstr "Az Ön e-mail-címének megtekintése és módosítása"
 
 #: src/components/utils/scope-description.tsx:244
 msgid "Read your account's email address"
-msgstr ""
+msgstr "Az Ön fiókjához tartozó e-mail-cím megtekintése"
 
 #: src/views/authorize/sign-in/sign-in-form.tsx:209
 #: src/views/authorize/sign-in/sign-in-form.tsx:214
 msgid "Remember this account on this device"
-msgstr ""
+msgstr "Fiók megjegyzése ezen az eszközön"
 
 #: src/components/utils/scope-description.tsx:595
 #: src/components/utils/scope-description.tsx:616
 msgid "Repository"
-msgstr ""
+msgstr "Tárolókezelés"
 
 #: src/views/authorize/reset-password/reset-password-confirm-form.tsx:59
 msgid "Reset code"
-msgstr ""
+msgstr "Ellenőrzőkód"
 
 #: src/views/authorize/reset-password/reset-password-view.tsx:82
 msgid "Reset Password"
-msgstr ""
+msgstr "Jelszó helyreállítása"
 
 #: src/views/authorize/sign-in/sign-in-form.tsx:187
 msgid "Reset your password"
-msgstr ""
+msgstr "Jelszó helyreállítása"
 
 #: src/views/authorize/sign-up/sign-up-handle-form.tsx:196
 msgid "Select domain"
-msgstr ""
+msgstr "Tartomány megadása"
 
 #: src/views/authorize/sign-in/sign-in-view.tsx:141
 msgid "Select from an existing account"
-msgstr ""
+msgstr "Létező fiók kiválasztása"
 
 #: src/views/authorize/welcome/welcome-view.tsx:45
 #: src/views/authorize/sign-in/sign-in-form.tsx:141
 msgctxt "verb"
 msgid "Sign in"
-msgstr ""
+msgstr "Bejelentkezés"
 
 #: src/views/authorize/sign-in/sign-in-view.tsx:52
 msgctxt "noun"
 msgid "Sign in"
-msgstr ""
+msgstr "Bejelentkezés"
 
 #. placeholder {0}: account.name
 #: src/views/authorize/sign-in/sign-in-picker.tsx:78
 msgid "Sign in as {0}"
-msgstr ""
+msgstr "Bejelentkezés, mint {0}"
 
 #: src/views/authorize/sign-in/sign-in-picker.tsx:64
 msgid "Sign in as..."
-msgstr ""
+msgstr "Bejelentkezés, mint…"
 
 #: src/views/authorize/sign-up/sign-up-view.tsx:88
 #: src/views/authorize/sign-in/sign-in-picker.tsx:53
 msgid "Sign up"
-msgstr ""
+msgstr "Regisztráció"
 
 #: src/components/forms/wizard-card.tsx:106
 msgid "Step {currentPosition} of {count}"
-msgstr ""
+msgstr "{count}/{currentPosition}. lépés"
 
 #: src/components/utils/password-strength-label.tsx:27
 msgid "Strong"
-msgstr ""
+msgstr "Erős"
 
 #: src/components/forms/form-card-async.tsx:96
 msgid "Submit"
-msgstr ""
+msgstr "Küldés"
 
 #: src/components/utils/link-title.tsx:20
 msgid "Support"
-msgstr ""
+msgstr "Támogatás"
 
 #: src/views/authorize/consent/consent-form.tsx:142
 msgid "Technical details"
-msgstr ""
+msgstr "Műszaki részletek"
 
 #: src/components/utils/scope-description.tsx:280
 msgid "Temporarily activate or deactivate your account"
-msgstr ""
+msgstr "Az Ön fiókjának átmeneti aktiválása és deaktiválása"
 
 #: src/views/authorize/sign-up/sign-up-disclaimer.tsx:34
 #: src/views/authorize/sign-up/sign-up-disclaimer.tsx:37
 #: src/components/utils/link-title.tsx:19
 msgid "Terms of Service"
-msgstr ""
+msgstr "felhasználási feltételeivel"
 
 #: src/components/utils/error-message.tsx:52
 msgid "That handle cannot be used"
-msgstr ""
+msgstr "Ez a felhasználónév nem megengedett"
 
 #: src/components/utils/scope-description.tsx:202
-msgid "The application is asking for full control over your network identity, meaning that it could <0>permanently break</0>, or even <1>steal</1>, your account. Only grant this permission to applications you really trust."
+msgid ""
+"The application is asking for full control over your network identity, meaning"
+" that it could <0>permanently break</0>, or even <1>steal</1>, your account. O"
+"nly grant this permission to applications you really trust."
 msgstr ""
+"Ez az alkalmazás korlátlan hozzáférést kíván szerezni az Ön teljes hálózati id"
+"entitásához. Ennek következtében a fiók <0>használhatatlanná válhat</0> vagy a"
+"kár <1>el is tulajdonítható</1>. Csak olyan alkalmazásoknak adja meg ezt a hoz"
+"záférést, amelyekben tényleg megbízik!"
 
 #: src/components/utils/scope-description.tsx:602
-msgid "The application is asking to be able to create, update, and delete <0>any data</0> from your repository."
+msgid ""
+"The application is asking to be able to create, update, and delete <0>any data"
+"</0> from your repository."
 msgstr ""
+"Ez az alkalmazás jogosultságokat kíván szerezni az Ön tárolójában található <0"
+">bármilyen adat</0> létrehozására, módosítására és törlésére."
 
 #: src/components/utils/scope-description.tsx:169
 #: src/components/utils/scope-description.tsx:482
 #: src/components/utils/scope-description.tsx:623
-msgid "The application requests the permissions necessary to perform the following actions on your behalf:"
+msgid ""
+"The application requests the permissions necessary to perform the following ac"
+"tions on your behalf:"
 msgstr ""
+"Ez az alkalmazás jogosultságokat kíván szerezni az alábbiak végrehajtásához az"
+" Ön nevében:"
 
 #: src/components/utils/scope-description.tsx:497
-msgid "The ATProto network uses an authentication mechanism that allows to uniquely identify users when communicating with external services. This is typically used to retrieve or update data linked to your account, such as feed or moderation content."
+msgid ""
+"The ATProto network uses an authentication mechanism that allows to uniquely i"
+"dentify users when communicating with external services. This is typically use"
+"d to retrieve or update data linked to your account, such as feed or moderatio"
+"n content."
 msgstr ""
+"Az ATProto-hálózat képes egyedien azonosítani felhasználókat, amikor külső szo"
+"lgáltatásokkal kommunikál. Ezt a funkciót általában a fiókkal kapcsolatos adat"
+"ok lekérdezéséhez használják (pl.: hírfolyam- és moderálási információ)."
 
 #: src/components/utils/error-message.tsx:69
 msgid "The data you submitted is invalid. Please check the form and try again."
 msgstr ""
+"A beküldött adatok helytelenek. Ellenőrizze az űrlapot, majd próbálja újra."
 
 #: src/components/utils/error-message.tsx:43
 msgid "The domain name is not allowed"
-msgstr ""
+msgstr "Ez a tartomány nem megengedett"
 
 #: src/components/utils/error-message.tsx:45
 msgid "The handle contains inappropriate language"
-msgstr ""
+msgstr "A felhasználónév trágár kifejezéseket tartalmaz"
 
 #: src/components/utils/error-message.tsx:50
 msgid "The handle is already in use"
-msgstr ""
+msgstr "Ez a felhasználónév már foglalt"
 
 #: src/components/utils/error-message.tsx:41
 msgid "The handle is invalid"
-msgstr ""
+msgstr "Ez a felhasználónév érvénytelen"
 
 #: src/components/utils/error-message.tsx:35
 msgid "The invite code is not valid"
-msgstr ""
+msgstr "Ez az ellenőrzőkód érvénytelen"
 
 #: src/views/authorize/consent/consent-form.tsx:147
-msgid "This application is requesting the following list of technical permissions, summarized hereafter:"
+msgid ""
+"This application is requesting the following list of technical permissions, su"
+"mmarized hereafter:"
 msgstr ""
 
 #: src/components/utils/error-message.tsx:77
@@ -600,11 +657,11 @@ msgstr ""
 
 #: src/components/utils/scope-description.tsx:712
 msgid "Update"
-msgstr ""
+msgstr "Módosítás"
 
 #: src/components/utils/scope-description.tsx:745
 msgid "Upload files"
-msgstr ""
+msgstr "Fájlok feltöltése"
 
 #: src/views/authorize/sign-in/sign-in-form.tsx:151
 msgid "Username or email address"
@@ -636,7 +693,7 @@ msgstr ""
 
 #: src/components/utils/password-strength-label.tsx:31
 msgid "Weak"
-msgstr ""
+msgstr "Gyenge"
 
 #: src/components/utils/error-message.tsx:31
 msgid "Wrong identifier or password"
@@ -647,7 +704,9 @@ msgid "You are being redirected..."
 msgstr ""
 
 #: src/views/authorize/sign-up/sign-up-handle-form.tsx:247
-msgid "You can change this username to any domain name you control after your account is set up."
+msgid ""
+"You can change this username to any domain name you control after your account"
+" is set up."
 msgstr ""
 
 #: src/views/authorize/reset-password/reset-password-view.tsx:116
@@ -655,7 +714,9 @@ msgid "You can now sign in with your new password."
 msgstr ""
 
 #: src/views/authorize/reset-password/reset-password-confirm-form.tsx:53
-msgid "You will receive an email with a \"reset code\". Enter that code here then enter your new password."
+msgid ""
+"You will receive an email with a \"reset code\". Enter that code here then ent"
+"er your new password."
 msgstr ""
 
 #: src/views/authorize/sign-up/sign-up-view.tsx:121
@@ -672,5 +733,12 @@ msgid "Your password has been updated!"
 msgstr ""
 
 #: src/components/utils/scope-description.tsx:638
-msgid "Your repository contains all the data publicly available on the ATProto network, such as Bluesky posts, likes, and follows. It also contains data created through other apps you've signed into using this account."
+msgid ""
+"Your repository contains all the data publicly available on the ATProto networ"
+"k, such as Bluesky posts, likes, and follows. It also contains data created th"
+"rough other apps you've signed into using this account."
 msgstr ""
+"A tároló tartalmaz minden Önnel kapcsolatos, az ATProto-hálózaton elérhető ada"
+"tot, beleértve a blueskyos bejegyzéseket, kedveléseket és követéseket is. Mind"
+"emellett olyan adatokat is tartalmaz, amelyeket az Ön fiókját használó alkalma"
+"zások hoztak létre."
